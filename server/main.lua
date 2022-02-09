@@ -6,7 +6,6 @@ RegisterCommand('notes', function(source, args, message)
   TriggerClientEvent('lkrp_notepad:note', _source)
   TriggerClientEvent('lkrp_notepad:OpenNotepadGui', _source)
   TriggerEvent('server:LoadsNote')
-
 end)
 
 
